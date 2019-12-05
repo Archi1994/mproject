@@ -18,6 +18,10 @@ public class FirstTest {
   public void f() {
 	  WebElement email = driver.findElement(By.cssSelector("input[type='email']"));
       email.sendKeys("archanataneja@gmail.com");
+      
+      String s = driver.findElement(By.xpath("//*[@id=\"content\"]/div/div/div/div/div[1]/div/div")).getText();
+      System.out.println(" value is : "+s);
+      
   }
   @BeforeTest
   public void beforeTest() {
