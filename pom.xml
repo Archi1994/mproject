@@ -4,6 +4,7 @@
   <artifactId>mproject</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>My first correct maven project</name>
+  
   <dependencies>
         <dependency>
         	<groupId>org.seleniumhq.selenium</groupId>
